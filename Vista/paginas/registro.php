@@ -37,8 +37,18 @@
       </div>
     </div>
     <?php   
-    $registro =new ControladorFormulario();
-    $registro -> ctrRegistrar();
+    $registro = ControladorFormulario::ctrRegistrar();
+    //echo $registro;
+    if ($registro=="ok") {
+      
+      echo'<script>
+      if(window.history.replaceState){
+          window.history.replaceState(null,null,window.location.href)
+      }
+      </script>';
+
+        echo '<div class="alert alert-success">El usuario se ha registrado</div>';
+    }
     ?>
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>

@@ -102,7 +102,7 @@ if (isset($_GET["pagina"])){
     <div class="container">
         <ul class="nav nav-justified py-2 nav-pills">
             <li class="nav-item">
-                <a class="nav-link active" href="index.php?pagina=registro">Registro</a>
+                <a class="nav-link " href="index.php?pagina=registro">Registro</a>
                 <li class="nav-item">
                 <a class="nav-link " href="index.php?pagina=ingreso">Ingreso</a>
             </li>           

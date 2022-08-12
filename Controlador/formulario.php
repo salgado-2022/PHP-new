@@ -1,9 +1,10 @@
 <?php
 
 class ControladorFormulario{
-    public function ctrRegistrar(){
+    static public function ctrRegistrar(){
             if (isset($_POST['txtNombre'])){
-                echo $_POST['txtNombre'];
+                //return $_POST['txtNombre']."<br>".$_POST['txtEmail']."<br>";
+                return "ok";
             }
 
     }
