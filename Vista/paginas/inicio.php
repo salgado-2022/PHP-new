@@ -1,0 +1,40 @@
+<table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nombre</th>
+              <th>Email</th>
+              <th>Fecha</th>
+              <th>Foto</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>mario</td>
+              <td>john@example.com</td>
+              <td>09/05/2000</td>
+              <td>Doe</td>
+              <td>Editar/Eliminar</td>
+            </tr>
+            <tr>
+            <td>02</td>
+              <td>mario</td>
+              <td>john@example.com</td>
+              <td>09/05/2000</td>
+              <td>Doe</td>
+              <td>Editar/Eliminar</td>
+            </tr>
+            <tr>
+            <td>03</td>
+              <td>mario</td>
+              <td>john@example.com</td>
+              <td>09/05/2000</td>
+              <td>Doe</td>
+              <td>Editar/Eliminar</td>
+            </tr>
+           
+          </tbody>
+        </table>
+      
