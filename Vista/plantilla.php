@@ -124,7 +124,16 @@ if (isset($_GET["pagina"])){
 
         </div> 
     </div>
-    
+<!-- jQuery -->
+<script src="../../modelo/AdminLTE-3.0.5/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../modelo/AdminLTE-3.0.5/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../modelo/AdminLTE-3.0.5/dist/js/adminlte.min.js"></script>
+<!-- Importando scrpt para acciones personalizadas -->
+<script src="../../modelo/AdminLTE-3.0.5/lib/scripts/myScript.js"></script>
+  
+<script src="js/myscript.js"></script>  
     
 </body>
 </html>
