@@ -1,20 +1,18 @@
 function guardar(){
     $.ajax({
         type:"POST",
-        url: "../../controlador/controlAdmin.php",
+        url: "",
         data: {
             'Nombre': $('#nombre').val(),
-            'Apellido': $('#apellidos').val(),
-            'Email': $('#correo').val(),
-            'tl': $('#telefono').val(),
+            'Apellido': $('#apellido').val(),
+            'Email': $('#email').val(),
             'metodo': "guardar"
         },
         success: function(data){
             alert(data);
             $('#nombre').val('');
-            $('#apellidos').val('');
-            $('#correo').val('');
-            $('#telefono').val('');
+            $('#apellido').val('');
+            $('#email').val('');
         }
     });
 }
